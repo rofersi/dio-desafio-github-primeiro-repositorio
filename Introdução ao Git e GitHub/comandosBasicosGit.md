@@ -74,6 +74,13 @@ ou
 
 ``git clone url-do-repositorio.git``
 
+### Arquivo .gitignore
+
+O arquivo `.gitignore` é um arquivo de texto que diz ao Git quais arquivos ou pastas ele deve ignorar em um projeto.
+
+Um arquivo `.gitignore` local geralmente é colocado no diretório raiz de um projeto. Você também pode criar um arquivo `.gitignore` global e todas as entradas que estiverem naquele arquivo serão ignoradas em todos os seus repositórios do Git.
+Referência: [Gitignore Explicado](https://www.freecodecamp.org/portuguese/news/gitignore-explicado-o-que-e-o-gitignore-e-como-adiciona-lo-ao-seu-repositorio/)
+
 
 
 
