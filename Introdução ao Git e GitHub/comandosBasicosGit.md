@@ -1,6 +1,5 @@
 # Pequena Referência de Comandos Git
-Link pra a [documentação do Git](https://git-scm.com/doc)
-Link direto para o livro [Pro Git](https://git-scm.com/book/pt-br/v2)
+Link pra a [documentação do Git](https://git-scm.com/doc) - link direto para o livro [Pro Git](https://git-scm.com/book/pt-br/v2)
 
 ### Gerando chaves ssh
 
@@ -12,6 +11,12 @@ $ eval "$(ssh-agent -s)"
 > 
 ### Indicar a chave ssh privada para o ssh-agent
 ``ssh-add ~/.ssh/id_ed25519``  > colocar o caminho para sua chave
+
+Após a geração das chaves, a chave pública (nomeChave.pub) 
+tem que ser informada no github em:
+Settings -> SSH and GPG keys
+
+Mais detalhes no [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 ### Configurações básicas
 
