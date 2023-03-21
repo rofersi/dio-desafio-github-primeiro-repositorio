@@ -42,7 +42,7 @@ ex:
 
 ``git add nome-do-arquivo`` >> pode se passar mais de um arquivo separado por espaço.
 
-``git add * `` >> adiciona todos os arquivos listados como untracked 
+``git add . `` >> adiciona todos os arquivos listados como untracked 
 
 ``git commit -m "Mensagem do Commit"`` 
 
